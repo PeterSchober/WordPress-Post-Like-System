@@ -23,6 +23,7 @@
 					post_id : post_id,
 					nonce : security,
 					is_comment : iscomment,
+					is_refresh : isrefresh,
 				},
 				beforeSend:function(){
 					loader.html('&nbsp;<div class="loader">Loading...</div>');
